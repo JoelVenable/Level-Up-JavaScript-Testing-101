@@ -2,6 +2,6 @@ export const add = (x, y) => x + y;
 
 export const multiply = (x, y) => x * y;
 
-export const total = (subtotal, total) => {
-  return `$${add(subtotal, total)}`;
+export const total = (shipping, subtotal) => {
+  return `$${add(shipping, subtotal)}`;
 };

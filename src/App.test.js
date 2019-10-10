@@ -2,20 +2,6 @@ import { multiply, total } from "./App";
 
 const add = jest.fn(() => 3);
 
-test("add", () => {
-  // arrange
-  const num1 = 1;
-  const num2 = 2;
-
-  // act
-  const value = add(num1, num2);
-
-  // assert
-  expect(value).toEqual(3);
-  expect(add).toHaveBeenCalledTimes(1);
-  expect(add).toHaveBeenCalledWith(num1, num2);
-});
-
 test("multiply", () => {
   // arrange
   const num1 = 10;

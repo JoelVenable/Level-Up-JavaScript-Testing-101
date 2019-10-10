@@ -18,11 +18,3 @@ test("multiply", () => {
   expect(result).toEqual(50);
   expect(result2).toEqual(24);
 });
-
-test("total", () => {
-  const result1 = total(5, 50);
-  const result2 = total(3, 14);
-
-  expect(result1).toEqual("$55");
-  expect(result2).toEqual("$17");
-});
